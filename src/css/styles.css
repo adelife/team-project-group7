@@ -4,30 +4,30 @@
 
 
 /* heder */
-@import url('');
+@import url('./header.css');
 
 /* hero */
-@import url('');
+@import url('./hero.css');
 
 /* advertisement */
-@import url('');
+@import url('./advertisement.css');
 
 /* about us */
-@import url('');
+@import url('./about-us.css');
 
 /* our cources */
-@import url('');
+@import url('./our-cources.css');
 
 /* our mentors */
-@import url('');
+@import url('./our-mentors.css');
 
 /* sign up */
-@import url('');
+@import url('./sign-up.css');
 
 /* reviews */
-@import url('');
+@import url('./sign-up.css');
 
 /* footer */
-@import url('');
+@import url('./footer.css');
 
 
