@@ -1,0 +1,91 @@
+.container-mentors {
+    background-color: #121212;
+    min-width: 320px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+
+.mentors-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.mentors-span {
+    color: #BEA69E;
+}
+
+.mentors-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.person-foto {
+    margin-bottom: 16px;
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+.mentors-name {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+.mentors-text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-mentors {
+        min-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-bottom: 100px;
+    }
+
+    .mentors-title {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -1.92px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .mentors-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 93px 100px;
+    }
+
+    .mentors-ittem {
+        flex-basis: calc((100% - 67px) / 2);
+    }
+
+}
