@@ -1,0 +1,97 @@
+.section-courses{
+    width: 1240px;
+    margin: auto;
+}
+
+.courses-span{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+}
+.courses{
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+}
+.focus{
+    display: flex;
+    gap: 410px;
+    margin-bottom: 50px;
+}
+.skill-check{
+    max-width: 565px;
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+}
+.photography-ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.list-photografy{
+    width: 400px;
+    height: 452px;
+    border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+}
+.info-item{
+    display: inline-flex;
+    padding-top: 32px;
+    margin-bottom: 42px;
+}
+.info-list{
+    color: rgba(255, 255, 255, 0.40);
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+    padding-right: 290px;
+    padding-left: 32px;
+}
+.button-item{
+    border: 1px;
+    border-radius: 50%;
+    width: 32px;
+        height: 32px;
+       background-color: #1D1D1D;
+}
+.photography-list{
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        max-width: 265px;
+        padding-left: 32px;
+        margin-bottom: 200px;
+}
+.information-item{
+    color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: -0.32px;
+    max-width: 336px;
+margin: 0 32px auto;
+}
