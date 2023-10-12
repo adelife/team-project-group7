@@ -75,6 +75,8 @@
               type="email"
               name="email"
               placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
             />
           </label>
           <button class="footer-btn" type="submit">Go</button>
@@ -82,18 +84,26 @@
       </div>
     </div>
     <div class="footer-bot">
-      <ul class="footer-bot-list">
-        <li class="footer-bot-item">
-          <a class="footer-bot-text" href="#"
-            >Privacy Policy<br />Public Offering Agreement</a
-          >
-        </li>
-        <li class="footer-bot-item">
-          <p class="footer-bot-text">
-            2023 Focus Frame <br />&copy; All rights reserved
-          </p>
-        </li>
-      </ul>
+      <div class="footer-bot-left">
+        <ul class="footer-bot-list">
+          <li class="footer-bot-item">
+            <a class="footer-bot-text" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer-bot-item">
+            <a class="footer-bot-text" href="#">Public Offering Agreement</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bot-right">
+        <ul class="footer-bot-list">
+          <li class="footer-bot-item">
+            <p class="footer-bot-text">2023 Focus Frame</p>
+          </li>
+          <li class="footer-bot-item">
+            <p class="footer-bot-text">&copy; All rights reserved</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </footer>
