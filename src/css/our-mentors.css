@@ -6,7 +6,7 @@
 
 .mentors {
     background-color: #121212;
-    margin-bottom: 80px;
+    padding: 40px 0;
 }
 
 .mentors-title {
@@ -60,21 +60,21 @@
     line-height: 1.33;
     letter-spacing: -0.24px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     .container {
-        min-width: 375px;
+        max-width: 375px;
         padding: 0 15px;
     }
 }
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 704px;
         padding: 0 15px;
         }
     .mentors {
         padding-left: 32px;
         padding-right: 32px;
-        margin-bottom: 100px;
+        padding: 50px 0;
     }
 .name-person{
     width: 180px;
@@ -112,12 +112,13 @@
 }
 @media screen and (min-width: 1280px){
     .container{
-        max-width: 1280px;
+        max-width: 1110px;
+        padding: 0 15px;
 }
 .mentors {
     padding-left: 100px;
     padding-right: 100px;
-    margin-bottom: 150px;
+    padding: 75px 0;
 }
 
 .mentors-title {
