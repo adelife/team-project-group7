@@ -1,9 +1,11 @@
-.container-mentors {
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.mentors {
     background-color: #121212;
-    min-width: 320px;
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-bottom: 80px;
 }
 
@@ -44,7 +46,8 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2
+    line-height: 1.2;
+    margin-bottom:4px;
 }
 
 .mentors-text {
@@ -57,15 +60,25 @@
     line-height: 1.33;
     letter-spacing: -0.24px;
 }
-
+@media screen and (max-width: 375px) {
+    .container {
+        min-width: 375px;
+        padding: 0 15px;
+    }
+}
 @media screen and (min-width: 768px) {
-    .container-mentors {
-        min-width: 768px;
+    .container {
+        max-width: 768px;
+        padding: 0 15px;
+        }
+    .mentors {
         padding-left: 32px;
         padding-right: 32px;
         margin-bottom: 100px;
     }
-
+.name-person{
+    width: 180px;
+}
     .mentors-title {
         color: #FFF;
         font-family: DM Sans;
@@ -83,9 +96,44 @@
         flex-wrap: wrap;
         gap: 93px 100px;
     }
-
-    .mentors-ittem {
-        flex-basis: calc((100% - 67px) / 2);
+    .mentors-name{
+        margin-bottom: 4px;
+        font-size: 28px;
+        line-height: 1.14;
+    }
+    .mentors-text{
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.28px;
     }
 
+   
+
+}
+@media screen and (min-width: 1280px){
+    .container{
+        max-width: 1280px;
+}
+.mentors {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 150px;
+}
+
+.mentors-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.mentors-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 }
