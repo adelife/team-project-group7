@@ -1,11 +1,12 @@
 .container {
   width: 100%;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 .footer {
   padding: 40px 0 20px;
-  background-image: url();
+  background-image: url(./img/grid/grid.mob.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +14,9 @@
   color: #fff;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+.logo-inner {
+  width: 142px;
+}
 .footer-logo {
   margin-bottom: 16px;
   display: block;
@@ -109,6 +112,9 @@
   font-size: 12px;
   line-height: 1.33;
 }
+.footer-icon {
+  fill: #fff;
+}
 /* Media */
 @media screen and (max-width: 374px) {
   .container {
@@ -123,12 +129,19 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 734px;
     padding: 0 15px;
   }
   .footer-container {
     display: flex;
     flex-wrap: wrap;
+  }
+  .footer-icon {
+    width: 123px;
+    height: 17px;
+  }
+  .footer-logo {
+    margin-bottom: 25px;
   }
   .footer-top {
     display: flex;
@@ -141,7 +154,7 @@
     margin-bottom: 0;
   }
   .footer-inner {
-    max-width: 199px;
+    width: 199px;
     gap: 25px;
   }
   .footer-contacts-list {
@@ -168,7 +181,7 @@
     margin-right: 135px;
     margin-bottom: 50px;
     gap: 50px;
-    max-width: 224px;
+    min-width: 224px;
   }
   .footer-form {
     gap: 16px;
@@ -191,14 +204,13 @@
 }
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1270px;
   }
   .logo-inner {
     margin-right: 341px;
-    min-width: 142px;
   }
   .footer-inner {
-    max-width: 274px;
+    min-width: 274px;
     margin-right: 191px;
     gap: 100px;
   }
@@ -206,10 +218,30 @@
 @media screen and (min-width: 768px) {
   .footer {
     padding: 50px 0 25px;
-    background-image: url();
+    background-image: url(./img/grid/grid_tab.png);
   }
 }
 @media screen and (min-width: 1110px) {
+  .footer {
+    background-image: url(./img/grid/grid_destop.png);
+  }
+}
+@media screen and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1110px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url();
   }
