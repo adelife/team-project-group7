@@ -246,3 +246,23 @@
     background-image: url();
   }
 }
+@media screen and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1110px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url();
+  }
+}
