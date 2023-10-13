@@ -16,10 +16,21 @@
 }
 .title-accent {
   color: #bea69e;
-/* }
+}
 .about-us-image {
+  width: 335px;
+  height: 209px;
+  position: relative;
+  transform: rotate(-90deg);
   margin-bottom: 40px;
-} */
+}
+.about-us-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .about-us-text {
   color: #fff;
   font-size: 14px;
@@ -28,14 +39,17 @@
   letter-spacing: -0.02em;
   margin-bottom: 20px;
 }
+.about-us-text:last-child {
+  margin-bottom: 0;
+}
 /* Mobile screen */
-/* @media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) {
   .container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
   }
-} */
+}
 
 /* Tablet screen */
 
