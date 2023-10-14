@@ -1,8 +1,4 @@
-.header {
-    background-color: #121212;
-    padding-top: 20px;
-    padding-bottom: 80px;
-  }
+
   .container {
     width: 100%;
     max-width: 375px;
@@ -13,11 +9,38 @@
   
   .header {
     background-color: #121212;
-    padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
+    .wrapper {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+        ), 
+        url("../img/grid/header+hero.mob.png");
+        background-color: #121212;
+        max-width: 375px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 80px;    
+       
+  }
+  
+  @media only screen and (min-resolution: 192dpi) {
+    .wrapper {
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0.70),
+        rgba(255, 255, 255, 0.70)
+        ),
+        url("../img/grid/header+hero.mob@2x.png");
+    }
+  }
+
+
   .logo {
     margin-right: 90px;
     fill: #ffffff;
@@ -43,9 +66,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .visuaally-hid {
-    display: none;
-  }
+
   .link-icon {
      flex-shrink: 0;
      fill: #bea69e66; 
@@ -60,9 +81,8 @@
     justify-content: center;
   }
   
-  .photo:hover,
-  .photo:focus {
-    color: #BEA69E66;
+  .photo:hover, .photo:focus {
+    fill: #BEA69E;
   }
  
   
@@ -79,7 +99,7 @@
     cursor: pointer;
   }
   .button-icon {
-    fill:#FFF;
+    stroke: #FFF;
   }
    
   
@@ -122,7 +142,7 @@
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
   }
   .mobile-menu-icon {
-    fill: #121212;
+    stroke: #121212;
   }
   .mobile-menu-link.current {
   font-weight: 700;
@@ -147,17 +167,70 @@
   /* END MOBILE MENU */
   
   
+  /* .wrapper {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+        ), 
+        url("../img/grid/header+hero.mob.png");
+        max-width: 375px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 80px;    
+       
+  }
+  
+  @media only screen and (min-resolution: 192dpi) {
+    .wrapper {
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0.70),
+        rgba(255, 255, 255, 0.70)
+        ),
+        url("../img/grid/header+hero.mob@2x.png");
+    }
+  } */
+
+
+
+
+
    @media screen and (min-width: 768px) {
     .container {
       max-width: 704px;
       margin-left: auto;
       margin-right: auto;
     }
+    
     .header {
       padding-left: 32px;
       padding-right: 32px;
       padding-bottom: 20px;
     } 
+     .wrapper {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+        ), 
+        url("../img/grid/header+hero.tab.png");
+        max-width: 768px;
+        padding-top: 20px;
+        padding-bottom: 100px;    
+       
+  }
+  
+  @media only screen and (min-resolution: 192dpi) {
+    .wrapper {
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0.70),
+        rgba(255, 255, 255, 0.70)
+        ),
+        url("../img/grid/header+hero.tab@2x.png");
+    }
+  }
+
     .nav-list {
       display: none;
     }
@@ -217,6 +290,12 @@
     gap: 28px;
   }
 
+.mobile-menu-btn {
+  min-width: 40px;
+  min-height: 40px;
+}
+
+
 
   .mobil-image {
   width: 100%;
@@ -229,6 +308,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
   .accent-logo {
     width: 123px;
     height: 16px;
@@ -240,11 +320,32 @@
   } 
   .header {
     background-color: #121212;
-    padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 100px;
       padding-right: 100px;
   } 
+  .wrapper {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+        ), 
+        url("../img/grid/header+hero.desk.png");
+        max-width: 1280px;
+        padding-top: 20px;
+        padding-bottom: 150px;    
+       
+  }
+  
+  @media only screen and (min-resolution: 192dpi) {
+    .wrapper {
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0.70),
+        rgba(255, 255, 255, 0.70)
+        ),
+        url("../img/grid/header+hero.desk.desk@2x.png");
+    }
+  }
+
   .header-menu-btn {
     display: none;
   }
@@ -272,8 +373,6 @@
     color: #BEA69E;
   }
   } 
-  
-  
   
   
   
