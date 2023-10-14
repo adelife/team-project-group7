@@ -98,7 +98,7 @@ address {
 }
 .footer-bot {
   display: flex;
-  gap: 72px;
+  justify-content: space-between;
 }
 .footer-bot-left {
   display: flex;
@@ -136,6 +136,9 @@ address {
   .footer-input {
     width: 100%;
   }
+  .footer-form {
+    gap: 42px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -172,7 +175,6 @@ address {
   }
   .footer-bot {
     min-width: 100%;
-    justify-content: space-between;
   }
 }
 
@@ -207,9 +209,6 @@ address {
   }
   .footer-info-item:not(:last-child) {
     margin-bottom: 20px;
-  }
-  .footer-bot {
-    min-width: 100%;
   }
 }
 @media screen and (min-width: 1440px) {
