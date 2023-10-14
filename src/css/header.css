@@ -1,23 +1,20 @@
 
+  
   .container {
     width: 100%;
     max-width: 375px;
     margin: 0 auto;
-    outline: 2px solid red;
-    outline-offset: -2px;
   }
-  
+  /* SECTION HEADER */
   .header {
     background-color: #121212;
-    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
   }
     .wrapper {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.70),
-      rgba(255, 255, 255, 0.70)
-        ), 
+    background-image:
         url("../img/grid/header+hero.mob.png");
         background-color: #121212;
         max-width: 375px;
@@ -25,21 +22,16 @@
         background-position: center;
         background-size: cover;
         margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 80px;    
+         
        
   }
   
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0.70),
-        rgba(255, 255, 255, 0.70)
-        ),
+      background-image:
         url("../img/grid/header+hero.mob@2x.png");
     }
   }
-
 
   .logo {
     margin-right: 90px;
@@ -80,12 +72,9 @@
     align-items: center;
     justify-content: center;
   }
-  
   .photo:hover, .photo:focus {
     fill: #BEA69E;
   }
- 
-  
   .header-scroll {
     display: none;
   }
@@ -102,9 +91,7 @@
     stroke: #FFF;
   }
    
-  
-  
-  
+
   /* SECTION MOBILE MENU */
   .mobil-image {
     width: 100%;
@@ -163,39 +150,9 @@
   line-height: normal;
   text-transform: uppercase;
   }
- 
   /* END MOBILE MENU */
   
   
-  /* .wrapper {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.70),
-      rgba(255, 255, 255, 0.70)
-        ), 
-        url("../img/grid/header+hero.mob.png");
-        max-width: 375px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 80px;    
-       
-  }
-  
-  @media only screen and (min-resolution: 192dpi) {
-    .wrapper {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0.70),
-        rgba(255, 255, 255, 0.70)
-        ),
-        url("../img/grid/header+hero.mob@2x.png");
-    }
-  } */
-
-
-
-
 
    @media screen and (min-width: 768px) {
     .container {
@@ -207,26 +164,19 @@
     .header {
       padding-left: 32px;
       padding-right: 32px;
-      padding-bottom: 20px;
+      padding-top: 20px;
+        padding-bottom: 20px; 
+
     } 
      .wrapper {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.70),
-      rgba(255, 255, 255, 0.70)
-        ), 
+    background-image:
         url("../img/grid/header+hero.tab.png");
-        max-width: 768px;
-        padding-top: 20px;
-        padding-bottom: 100px;    
-       
+        max-width: 768px; 
   }
   
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0.70),
-        rgba(255, 255, 255, 0.70)
-        ),
+      background-image: 
         url("../img/grid/header+hero.tab@2x.png");
     }
   }
@@ -320,28 +270,20 @@
   } 
   .header {
     background-color: #121212;
-    padding-bottom: 40px;
     padding-left: 100px;
       padding-right: 100px;
+      padding-top: 20px;
+      padding-bottom: 40px; 
   } 
   .wrapper {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.70),
-      rgba(255, 255, 255, 0.70)
-        ), 
+    background-image: 
         url("../img/grid/header+hero.desk.png");
         max-width: 1280px;
-        padding-top: 20px;
-        padding-bottom: 150px;    
-       
   }
   
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
-      background-image: linear-gradient(
-        rgba(255, 255, 255, 0.70),
-        rgba(255, 255, 255, 0.70)
-        ),
+      background-image: 
         url("../img/grid/header+hero.desk.desk@2x.png");
     }
   }
@@ -349,8 +291,6 @@
   .header-menu-btn {
     display: none;
   }
-
-
 
   .header-scroll
    {
