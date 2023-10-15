@@ -1,15 +1,22 @@
 
   
   .container {
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
+   width: 100%;
+   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   }
+  @media screen and (min-width: 375px) {
+    .container {
+      max-width: 375px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   /* SECTION HEADER */
   .header {
     background-color: #121212;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     padding-top: 20px;
     padding-bottom: 10px; 
   }
@@ -22,8 +29,7 @@
         background-position: center;
         background-size: cover;
         margin: 0 auto;
-         
-       
+        
   }
   
   @media only screen and (min-resolution: 192dpi) {
@@ -37,10 +43,10 @@
     margin-right: 90px;
     fill: #ffffff;
   }
-  .nav-logo {
+  /* .nav-logo {
     padding: 15px 0;
     
-  }
+  } */
   .nav-list {
     display: none;
   }
@@ -51,6 +57,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     width: 335px;
+    height: 50px;
     justify-content: center;
   }
   .header-inner {
@@ -152,18 +159,21 @@
   }
   /* END MOBILE MENU */
   
-  
+}
 
    @media screen and (min-width: 768px) {
     .container {
-      max-width: 704px;
+      max-width: 734px;
       margin-left: auto;
       margin-right: auto;
+      padding: 0 15px;
+      /* padding-left: 32px;
+      padding-right: 32px; */
     }
     
     .header {
-      padding-left: 32px;
-      padding-right: 32px;
+      /* padding-left: 32px;
+      padding-right: 32px; */
       padding-top: 20px;
         padding-bottom: 20px; 
 
@@ -184,18 +194,17 @@
     .nav-list {
       display: none;
     }
-    .nav-logo {
-      margin-right: 0;
-    }
+ 
     .header-nav {
       width: 504px;
+      height: 60px;
+      justify-content: space-evenly;
     }
     .link-icon {
       display: none;
     }
     .logo {
       width: 123px;
-      height: 16px;
       margin-right: 300px;
     }
     .button-icon {
@@ -254,9 +263,10 @@
     
   @media screen and (min-width: 1280px) {
     .container {
-      max-width: 1080px;
+      max-width: 1110px;
       margin-left: auto;
       margin-right: auto;
+      padding: 0 15px;
     }
 
   .accent-logo {
@@ -270,8 +280,8 @@
   } 
   .header {
     background-color: #121212;
-    padding-left: 100px;
-      padding-right: 100px;
+    /* padding-left: 100px;
+      padding-right: 100px; */
       padding-top: 20px;
       padding-bottom: 40px; 
   } 
@@ -298,6 +308,7 @@
   }
    .header-nav {
       width: 822px;
+      height: 60px;
     }
   
   .nav-link {
