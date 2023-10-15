@@ -115,7 +115,6 @@
         gap: 12px;
     }
     .hero-image {
-        display: block;
         margin: 0 auto;
     }
 }
@@ -125,6 +124,7 @@
         padding: 0 15px;
     }
     .hero-artical {
+        padding: 80px 50px 0 50px;
         display: flex;
         justify-content: space-between;
         align-items: end;
