@@ -6,12 +6,20 @@
   padding-left: 20px;
   padding-right: 20px;
   }
-  @media screen and (min-width: 375px) {
+  
+   @media screen and (min-width: 375px) {
+    .container {
+      max-width: 374px;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+   }
+  /* @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
   /* SECTION HEADER */
   .header {
     background-color: #121212;
@@ -158,8 +166,6 @@
   text-transform: uppercase;
   }
   /* END MOBILE MENU */
-  
-}
 
    @media screen and (min-width: 768px) {
     .container {
