@@ -1,3 +1,7 @@
+.section-courses{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .container-information {
     max-width: 375px;
     margin-left: auto;
@@ -135,6 +139,10 @@ transition-duration: 1s;
 }
 
 @media screen and (min-width: 768px) {
+    .section-courses {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
     .container-information {
         max-width: 734px;
         padding-left: 15px;
@@ -201,6 +209,10 @@ transition-duration: 1s;
 }
 
 @media screen and (min-width: 1280px) {
+    .section-courses {
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
     .container-information {
         max-width: 1110px;
         padding-left: 15px;
