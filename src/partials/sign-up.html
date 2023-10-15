@@ -1,0 +1,82 @@
+<section class="sign-up-section">
+  <div class="sign-up-container">
+    <div class="sign-up-box">
+      <div>
+        <h2 class="sign-up-title" id="#">
+          Sign <span class="sign-up-title-accent">Up</span>
+        </h2>
+        <p class="sign-up-text">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
+
+        <div class="form-conteiner">
+          <form name="sign-up-form">
+            <input
+              class="sign-up-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Enter your name"
+              pattern="[A-Za-z0-9]{6,}"
+              title="The login cannot be less than 6 Latin characters."
+              required
+            />
+
+            <input
+              class="sign-up-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              required
+            />
+
+            <textarea
+              class="sign-up-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Message"
+            ></textarea>
+
+            <button class="sign-up-batton" type="submit">Send</button>
+
+            <p class="text-info">
+              By clicking on &#8220;Send&#8221; button, you agree to our
+              <a class="policy-link" href="#"> Privacy Policy</a>,<br />
+              and allow Promodo to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="sign-up-image">
+        <div class="camera-img">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/singup/jpg/photo1440.png    1x,
+                ./img/singup/jpg/photo1440@2x.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/singup/jpg/photo.png    1x,
+                ./img/singup/jpg/photo@2x.png 2x
+              "
+            />
+            <img
+              class="camera-img-size"
+              src="./img/singup/jpg/photo.png"
+              alt="Camera"
+              width="240"
+              height="296"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
