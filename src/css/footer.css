@@ -14,7 +14,7 @@
   color: #fff;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-address {
+.footer address {
   font-style: normal;
 }
 .logo-inner {
@@ -124,6 +124,9 @@ address {
 }
 .footer-icon {
   fill: #fff;
+}
+.footer-input::placeholder {
+  color: #121212;
 }
 /* Media */
 @media screen and (max-width: 374px) {
