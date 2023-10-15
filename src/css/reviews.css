@@ -7,22 +7,22 @@
 @media screen and (min-width: 375px) {
   .container {
     padding: 0 20px;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding: 0 32px;
-    margin: 0;
+    max-width: 734px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1310px;
-    padding: 0 100px;
-    margin: 0;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 /* @media screen and (min-width: 1440px) { 
@@ -78,7 +78,7 @@
   .reviews-ul {
     display: flex;
     gap: 20px;
-    padding: 0;
+    padding-left: 75px;
   }
 }
 /*  
@@ -138,6 +138,7 @@
   .revivews-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -204,6 +205,7 @@
     line-height: 1.13; /* 112.5% */
     letter-spacing: -1.92px;
     margin-bottom: 50px;
+    margin-left: 75px;
   }
 }
 /*  
@@ -260,6 +262,7 @@
   line-height: 1.33; /* 133.333% */
   letter-spacing: -0.24px;
 }
+
 .star-list {
   margin-left: 86px;
   display: flex;
