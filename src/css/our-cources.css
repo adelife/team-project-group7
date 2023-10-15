@@ -246,25 +246,3 @@ transition-duration: 1s;
         width: 283px;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .container-information {
-        max-width: 1440px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .list-card {
-        width: 400px;
-        height: 452px;
-    }
-
-    .photography-list {
-        margin-bottom: 200px;
-    }
- 
-        
-    .info-item {
-        gap: 286px;
-    }
-}
