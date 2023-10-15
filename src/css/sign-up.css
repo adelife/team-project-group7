@@ -4,7 +4,7 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+
 }
 
 .sign-up-section {
@@ -128,7 +128,8 @@ textarea::placeholder {
 
 @media screen and (min-width: 375px) {
     .sign-up-container {
-        max-width: 375px;
+        max-width: 365px;
+        padding: 0 15px;
     }
 }
 
@@ -136,8 +137,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
     .sign-up-container {
-        max-width: 768px;
-        padding: 0 32px;
+        max-width: 734px;
     }
 
     .sign-up-section {
@@ -205,8 +205,7 @@ textarea::placeholder {
 @media screen and (min-width: 1280px) {
 
     .sign-up-container {
-        max-width: 1280px;
-        padding: 0 100px;
+        max-width: 1110px;
     }
 
     .sign-up-section {
@@ -224,30 +223,20 @@ textarea::placeholder {
     }
 
     .sign-up-image {
-        display: flex;
-        align-items: flex-end;
-        padding-bottom: 30px;
+        display: block;
+
 
     }
 
-    .lens-img {
-
-        padding: 76px 19px 62px;
-        width: 180px;
-        height: 288px;
-        border-radius: 1000px;
-        background: #BEA69E;
-        margin-right: 20px;
-    }
 
 
 
     .camera-img {
-        padding: 156px 50px 88px;
-        width: 340px;
+
+        width: 540px;
         height: 540px;
-        border-radius: 1000px;
-        background: #1D1D1D;
+
+
     }
 
 
@@ -256,7 +245,7 @@ textarea::placeholder {
 @media screen and (min-width: 1440px) {
 
     .sign-up-container {
-        max-width: 1440px;
+        max-width: 1270px;
     }
 
 
@@ -268,41 +257,28 @@ textarea::placeholder {
 
 
 
-    .lens-img {
-
-        padding: 63px 18px 62px;
-        width: 190px;
-    }
-
 
 
     .camera-img {
-        padding: 139px 48px 88px;
-        width: 350px;
-
+        width: 560px;
+        height: 540px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .lens-img-size {
-        width: 163px;
-        height: 154px;
-    }
+
 
     .camera-img-size {
-        width: 254px;
-        height: 313px;
+        width: 560px;
+        height: 540px;
     }
 }
 
 @media screen and (max-width: 1439.98px) {
-    .lens-img-size {
-        width: 150px;
-        height: 142px;
-    }
+
 
     .camera-img-size {
-        width: 240px;
-        height: 296px;
+        width: 540px;
+        height: 540px;
     }
 }
