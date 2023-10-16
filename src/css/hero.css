@@ -59,11 +59,15 @@
     flex-direction: column;
     gap: 8px;
 }
-.hero-icon-star {
+.icon-hero {
     background-color: #BEA69E;
-    border-radius: 100px;
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .icon-star {
     stroke: #121212;
