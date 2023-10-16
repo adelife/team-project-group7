@@ -246,3 +246,14 @@ transition-duration: 1s;
         width: 283px;
     }
 }
+
+/* додано */
+@media screen and (min-width: 1440px) {
+
+    .container-information {
+        max-width: 1270px;
+    }
+    .photography-ol{
+        justify-content: space-between;
+    }
+}
