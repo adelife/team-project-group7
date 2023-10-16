@@ -164,7 +164,7 @@
     } 
      .wrapper {
     background-image:
-        url("../img/grid/header+hero.tab.png");
+        url("/img/grid/header+hero.tab.png");
         max-width: 768px; 
         padding-top: 20px;
         padding-bottom: 20px; 
@@ -173,7 +173,7 @@
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
       background-image: 
-        url("../img/grid/header+hero.tab@2x.png");
+        url("/img/grid/header+hero.tab@2x.png");
     }
   }
 
@@ -269,7 +269,7 @@
   } 
   .wrapper {
     background-image: 
-        url("../img/grid/header+hero.desk.png");
+        url("/img/grid/header+hero.desk.png");
         max-width: 1280px;
         padding-top: 20px;
         padding-bottom: 40px; 
@@ -278,7 +278,7 @@
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
       background-image: 
-        url("../img/grid/header+hero.desk.desk@2x.png");
+        url("/img/grid/header+hero.desk.desk@2x.png");
     }
   }
 
@@ -308,6 +308,16 @@
     color: #BEA69E;
   }
   } 
-  
+    @media screen and (min-width: 1440px) {
+      .container {
+        max-width: 1270px;
+      }
+            @media only screen and (min-resolution: 192dpi) {
+              .wrapper {
+                background-image:
+                  url("/img/grid/header+hero.desk.desk@2x.png");
+              }
+            }
+    }
   
   
