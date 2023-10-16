@@ -8,14 +8,10 @@ body{
 }
 
 .running-line{
-    width: 588px;
-    height: 72px;
     overflow: hidden;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
+    align-items: center;
+    
 }
 
 .running-line-inner{
@@ -26,10 +22,10 @@ body{
 .running-line-text{
     color: #BEA69E;
     flex-shrink: 0;
-    margin: 0;
+    margin: 0 auto;
     padding: 10px 15px;
     white-space: nowrap;
-    animation-name: running-line;
+    animation-name: running-lineX;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -38,14 +34,15 @@ body{
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    width: 100%;
+    min-width: 100%;
+    
 }
 
 .line-accent{
     color: #FFF;
 }
 
-@keyframes running-line {
+@keyframes running-lineX {
     from {
         transform: translateX(0);
     }
