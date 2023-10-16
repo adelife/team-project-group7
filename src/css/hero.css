@@ -40,6 +40,7 @@
 .hero-icon-students {
     display: inline-flex;
     gap: 4px;
+    margin-top: 4px;
 }
 .hero-icon-arrow {
     fill: #fff;
@@ -89,6 +90,9 @@
         display: flex;
         justify-content: space-between;
         gap: 0;
+    }
+    .hero-image {
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 375px) {
@@ -188,6 +192,13 @@
         line-height: 1.25;
     }
 }
-
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1270px;
+    }
+    .hero-artical {
+        padding-right: 100px;
+    }
+}
 
 
