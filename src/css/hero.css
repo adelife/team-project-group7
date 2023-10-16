@@ -30,10 +30,10 @@
     font-size: 14px;
     line-height: 1.28;
     margin-bottom: 40px;
-    width: 295px;
+    max-width: 295px;
 }
 .hero-block {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
     padding-bottom: 31px;
 }
@@ -84,7 +84,13 @@
     font-weight: 500;
     line-height: 1.25;
 }
-
+@media screen and (max-width: 374.98px) {
+    .hero-block {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+}
 @media screen and (min-width: 375px) {
     .container {
         width: 100%;
@@ -115,7 +121,7 @@
         line-height: 1.07;
     }
     .hero-text {
-        width: 418px;
+        max-width: 418px;
         margin-bottom: 40px;
     }
     .hero-icon-students {
