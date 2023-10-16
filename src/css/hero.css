@@ -30,6 +30,7 @@
     font-size: 14px;
     line-height: 1.28;
     margin-bottom: 40px;
+    width: 295px;
 }
 .hero-block {
     display: inline-flex;
@@ -66,6 +67,7 @@
 }
 .icon-star {
     stroke: #121212;
+    fill: none;
 }
 .reviews {
     color: rgba(255, 255, 255, 0.50);
@@ -102,13 +104,20 @@
     .hero-title {
         font-size: 60px;
         line-height: 1.07;
+        width: 517px;
     }
     .hero-span {
         font-size: 60px;
         line-height: 1.07;
     }
     .hero-text {
+        width: 418px;
         margin-bottom: 40px;
+    }
+    .hero-icon-students {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
     }
     .hero-happy-students {
         display: inline-flex;
@@ -137,6 +146,7 @@
         font-size: 64px;
         font-weight: 500;
         line-height: 1.06;
+        width: 563px;
     }
     .hero-span {
         font-size: 64px;
