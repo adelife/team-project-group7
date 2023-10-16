@@ -71,7 +71,7 @@ ol {
 
 .info-item {
     display: flex;
-    margin-top: 28px;
+    padding-top: 28px;
     gap: 229px;
     margin-bottom: 28px;
 }
@@ -123,7 +123,7 @@ transition-duration: 1s;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
-    max-width: 265px;
+    max-width: 250px;
     margin-bottom: 164px;
     margin-left: 28px;
 }
@@ -137,7 +137,7 @@ transition-duration: 1s;
     line-height: 18px;
     letter-spacing: -0.28px;
     width: 279px;
-    margin-left: 28px;
+    padding-left: 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,7 +192,7 @@ transition-duration: 1s;
     }
 
     .info-item {
-        margin-top: 32px;
+        padding-top: 32px;
         margin-bottom: 32px;
     }
 
@@ -202,8 +202,8 @@ transition-duration: 1s;
     }
 
     .information-item {
-        width: 283px;
-        margin-left: 32px;
+        width: 278px;
+        padding-left: 32px;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: -0.32px;
@@ -245,7 +245,7 @@ transition-duration: 1s;
     }
 
     .information-item {
-        width: 283px;
+        width: 284px;
     }
 }
 
