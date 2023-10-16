@@ -23,8 +23,8 @@
         margin: 0 auto;
         padding-top: 20px;
         padding-bottom: 10px; 
-  }
   
+    }
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
       background-image:
@@ -310,8 +310,15 @@
   } 
     @media screen and (min-width: 1440px) {
       .container {
-        max-width: 1270px;
+        max-width: 1440px;
       }
+                .wrapper {
+                  background-image:
+                    url("/img/grid/header+hero.desk.png");
+                  max-width: 1440px;
+                  padding-top: 20px;
+                  padding-bottom: 40px;
+                }
             @media only screen and (min-resolution: 192dpi) {
               .wrapper {
                 background-image:
@@ -319,5 +326,3 @@
               }
             }
     }
-  
-  
