@@ -253,4 +253,7 @@ transition-duration: 1s;
     .photography-ol{
         justify-content: space-between;
 }
+.list-card{
+    width: 400px;
+}
 }

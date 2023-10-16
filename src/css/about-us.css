@@ -113,4 +113,12 @@
     .about-us-content{
       gap:40px;
     }
+        .about-us-text{
+          max-width: 314px;
+        } 
+    
+        .about-us-image {
+          max-width: 560px;
+          height: 240px;
+        }
 }
