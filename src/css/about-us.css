@@ -103,3 +103,14 @@
     gap: 20px;
   }
 }
+@media screen and (min-width: 1440px){
+  .about-us-photo{
+    width: 560px;
+  }
+  .about-us-container{
+    gap:50px;
+  }
+    .about-us-content{
+      gap:40px;
+    }
+}

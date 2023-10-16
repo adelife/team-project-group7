@@ -253,3 +253,11 @@
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.28px;
 }
+@media screen and (min-width: 1440px) {
+.reviews-ul{
+  padding: 0;
+}
+.reviews-li{
+  width: 610px;
+}
+}
