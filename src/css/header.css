@@ -14,7 +14,7 @@
   }
     .wrapper {
     background-image:
-        url("../img/grid/header+hero.mob.png");
+        url("/img/grid/header+hero.mob.png");
         background-color: #121212;
         max-width: 375px;
         background-repeat: no-repeat;
@@ -28,7 +28,7 @@
   @media only screen and (min-resolution: 192dpi) {
     .wrapper {
       background-image:
-        url("../img/grid/header+hero.mob@2x.png");
+        url("/img/grid/header+hero.mob@2x.png");
     }
   }
 
