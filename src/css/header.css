@@ -16,7 +16,6 @@
     background-image:
         url("/img/grid/header+hero.mob.png");
         background-color: #121212;
-        max-width: 375px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -165,7 +164,6 @@
      .wrapper {
     background-image:
         url("/img/grid/header+hero.tab.png");
-        max-width: 768px; 
         padding-top: 20px;
         padding-bottom: 20px; 
   }
@@ -270,7 +268,6 @@
   .wrapper {
     background-image: 
         url("/img/grid/header+hero.desk.png");
-        max-width: 1280px;
         padding-top: 20px;
         padding-bottom: 40px; 
   }
@@ -315,7 +312,6 @@
                 .wrapper {
                   background-image:
                     url("/img/grid/header+hero.desk.png");
-                  max-width: 1440px;
                   padding-top: 20px;
                   padding-bottom: 40px;
                 }
