@@ -22,7 +22,8 @@ ol {
 }
 
 .courses {
-    color: #FFF;
+    
+    color: #BEA69E;
     font-family: DM Sans;
     font-size: 28px;
     font-style: normal;
@@ -33,7 +34,8 @@ ol {
 }
 
 .courses-span {
-    color: #BEA69E;
+   
+    color: #FFF;
     font-family: DM Sans;
     font-size: 28px;
     font-style: normal;
