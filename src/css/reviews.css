@@ -24,12 +24,7 @@
     margin: 0 auto;
   }
 }
-/* @media screen and (min-width: 1440px) { 
-  .container {
-    max-width: 100%;
-  }
-}
-*/
+
 .section {
   padding: 40px 0;
 }
@@ -41,33 +36,16 @@
 
 @media screen and (min-width: 768px) {
   .section {
-    padding: 40px 0;
+    padding: 50px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section {
-    padding: 40 0px;
+    padding: 75px 0 150px;
   }
 }
-/* 
-@media screen and (min-width: 1440px) {
-  .section {
-    padding: 0 15px;
-    padding-top: 40px;
-  }
-}
- */
-/*.reviews-list {
-}
-@media screen and (min-width: 735px) and (max-width: 1110px) {
-  .reviews-list {
-  }
-}
-@media screen and (min-width: 1111px) {
-  .reviews-list {
-  }
-}*/
+
 @media screen and (min-width: 768px) {
   .reviews-ul {
     padding: 0 32px;
@@ -77,22 +55,12 @@
   .reviews-ul {
     display: flex;
     gap: 20px;
-    padding-left: 75px;
   }
 }
-/*  
-@media screen and (min-width: 1440px) {
-  .reviews-ul {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-  }
-}
-*/
+
 .reviews-li {
   width: 280px;
-  padding: 0;
-
+  padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -100,7 +68,6 @@
 @media screen and (min-width: 375px) {
   .reviews-li {
     width: 335px;
-    padding: 0;
     flex-shrink: 0;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -109,8 +76,6 @@
 @media screen and (min-width: 768px) {
   .reviews-li {
     width: 640px;
-
-    padding: 0;
     flex-shrink: 0;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -119,18 +84,9 @@
 @media screen and (min-width: 1280px) {
   .reviews-li {
     width: 530px;
-    padding: 0;
   }
 }
-/* 
-@media screen and (min-width: 1440px) {
-  .reviews-li {
-    width: 530px;
 
-    padding: 0;
-  }
-}
- */
 
 @media screen and (min-width: 768px) {
   .revivews-wrapper {
@@ -145,12 +101,7 @@
     justify-content: space-between;
   }
 }
-/* @media screen and (min-width: 1440px) { 
-  .revivews-wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-}*/
+
 
 .visually-hidden {
   display: none;
@@ -161,12 +112,7 @@
     display: block;
   }
 }
-/* @media screen and (min-width: 1440px) { 
-  .visually-hidden {
-    display: block;
-  }
-}
-*/
+
 .reviews-title {
   color: #fff;
   font-family: DM Sans;
@@ -203,25 +149,13 @@
     line-height: 1.13; /* 112.5% */
     letter-spacing: -1.92px;
     margin-bottom: 50px;
-    margin-left: 75px;
   }
 }
-/*  
-@media screen and (min-width: 1440px) {
-  .reviews-title {
-    font-size: 48px;
-    line-height: 1.13;
-    letter-spacing: -1.92px;
-    margin-bottom: 50px;
-  }
-}
-*/
+
 .revivews-title-div {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-top: 20px;
-  padding-left: 20px;
   margin-bottom: 4px;
 }
 
@@ -240,8 +174,7 @@
     margin-bottom: 20px;
   }
 }
-.revivews-text {
-}
+
 .revivews-h {
   color: #fff;
   font-family: DM Sans;
@@ -262,37 +195,13 @@
 }
 
 .star-list {
-  margin-left: 86px;
+  margin-left: 66px;
   display: flex;
   gap: 4px;
   margin-bottom: 20px;
+
 }
-@media screen and (min-width: 375px) {
-  .star-list {
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .star-list {
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .star-list {
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-}
-/*  
-@media screen and (min-width: 1440px) {
-  .star-list {
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-}
-*/
+
 .star-svg {
   fill: #bea69e;
 }
@@ -312,13 +221,6 @@
     transform: scale(1.25);
   }
 }
-/* 
-@media screen and (min-width: 1440px) {
-  .star-svg {
-    transform: scale(1.25);
-  }
-}
- */
 
 .star-svg-empty {
   fill: #414141;
@@ -341,13 +243,7 @@
     transform: scale(1.25);
   }
 }
-/* 
-@media screen and (min-width: 1440px) {
-  .star-svg-empty {
-    transform: scale(1.25);
-  }
-}
- */
+
 .revivews-deskr {
   color: #fff;
   font-family: DM Sans;
@@ -356,5 +252,4 @@
   font-weight: 400;
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.28px;
-  padding: 0 20px 20px;
 }

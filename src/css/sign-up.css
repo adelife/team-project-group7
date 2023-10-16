@@ -129,7 +129,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 375px) {
     .sign-up-container {
-        max-width: 365px;
+        max-width: 366px;
         padding: 0 15px;
     }
 }
