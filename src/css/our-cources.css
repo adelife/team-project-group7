@@ -22,17 +22,6 @@ ol {
 }
 
 .courses {
-    color: #FFF;
-    font-family: DM Sans;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    /* 114.286% */
-    letter-spacing: -1.12px;
-}
-
-.courses-span {
     color: #BEA69E;
     font-family: DM Sans;
     font-size: 28px;
@@ -40,6 +29,17 @@ ol {
     font-weight: 500;
     line-height: 32px;
     letter-spacing: -1.12px;
+}
+
+.courses-span {
+    
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+    color: #FFF;
 }
 
 .skill-check {
