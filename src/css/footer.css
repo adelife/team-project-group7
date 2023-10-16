@@ -6,7 +6,7 @@
 }
 .footer {
   padding: 40px 0 20px;
-  background-image: url(./img/grid/footer.mob.png);
+  background-image: url(/img/grid/footer.mob.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -231,27 +231,27 @@
 @media screen and (min-width: 768px) {
   .footer {
     padding: 50px 0 25px;
-    background-image: url(./img/grid/grid_tab.png);
+    background-image: url(/img/grid/grid_tab.png);
   }
 }
 @media screen and (min-width: 1110px) {
   .footer {
-    background-image: url(./img/grid/grid_destop.png);
+    background-image: url(/img/grid/grid_destop.png);
   }
 }
 @media screen and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/grid/footer.mob@2x.png);
+    background-image: url(/img/grid/footer.mob@2x.png);
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/grid/footer.tab@2x.png);
+    background-image: url(/img/grid/footer.tab@2x.png);
   }
 }
 @media screen and (min-width: 1110px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(./img/grid/footer.desk@2x.png);
+    background-image: url(/img/grid/footer.desk@2x.png);
   }
 }
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
