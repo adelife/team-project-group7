@@ -1,7 +1,5 @@
-
 @import url('./reset.css');
 @import url('./base.css');
-
 
 /* heder */
 @import url('./header.css');
@@ -25,9 +23,7 @@
 @import url('./sign-up.css');
 
 /* reviews */
-@import url('./sign-up.css');
+@import url('./reviews.css');
 
 /* footer */
 @import url('./footer.css');
-
-
