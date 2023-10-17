@@ -9,6 +9,16 @@
         .container.container-inner {
           padding-bottom: 10px;
         }
+        .header-nav{
+          padding: 0 20px;
+          width: 280px;
+          justify-content: space-between;
+          
+        }
+       .nav-logo{
+        width: 160px;
+       }
+
   }
   
 .header{
