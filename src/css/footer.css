@@ -139,7 +139,7 @@
 /* Media */
 @media screen and (max-width: 374px) {
   .container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .footer-bot {
     justify-content: space-between;
